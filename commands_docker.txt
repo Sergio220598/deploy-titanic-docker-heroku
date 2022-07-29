@@ -1,0 +1,2 @@
+docker build -t "name of container" . 
+docker run --name "name" -p 8000:8000 -e PORT=8000 "name of container"
